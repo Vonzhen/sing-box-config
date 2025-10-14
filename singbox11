@@ -309,7 +309,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"include","keywords":["🇸🇬|SG|sg|新加坡|狮|Singapore"]}
+        {"action":"include","keywords":["bc香港"]}
       ]      
     },
     {
@@ -320,10 +320,11 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "台湾 HiNet 01 ○",
-        "台湾 HiNet 02 ○",
-        "台湾 Hinet 03 ○"
-      ]
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["bc台湾"]}
+      ]   
     },
     {
       "type": "urltest",
@@ -333,9 +334,11 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "狮城 BGP 01",
-        "狮城 Eons 02"
-      ]
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["bc狮城"]}
+      ]   
     },
     {
       "type": "urltest",
@@ -345,26 +348,10 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "香港 01",
-        "香港 02",
-        "香港 03",
-        "香港 04",
-        "香港 05",
-        "香港 06",
-        "香港 07",
-        "香港 08",
-        "香港 09",
-        "香港 10",
-        "香港 11",
-        "香港 12",
-        "香港 13",
-        "香港 14",
-        "香港 15",
-        "香港 16",
-        "香港 17",
-        "香港 18",
-        "香港 19",
-        "香港 20"
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["lm香港"]}
       ]
     },
     {
@@ -375,16 +362,10 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "新加坡 01",
-        "新加坡 02",
-        "新加坡 03",
-        "新加坡 04",
-        "新加坡 05",
-        "新加坡 06",
-        "新加坡 07",
-        "新加坡 08",
-        "新加坡 09",
-        "新加坡 10"
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["lm新加坡"]}
       ]
     },
     {
@@ -395,21 +376,10 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "台湾 01",
-        "台湾 02",
-        "台湾 03",
-        "台湾 04",
-        "台湾 05",
-        "台湾 06",
-        "台湾 07",
-        "台湾 08",
-        "台湾 09",
-        "台湾 10",
-        "SS-台湾 01",
-        "SS-台湾 02",
-        "SS-台湾 03",
-        "SS-台湾 04",
-        "SS-台湾 05"
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["lm台湾"]}
       ]
     },
     {
@@ -420,8 +390,10 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "🇭🇰Hong Kong Telecom",
-        "🇭🇰Hong Kong Telecom"
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["ktHong Kong"]}
       ]
     },
     {
@@ -432,8 +404,10 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "🇹🇼Taiwan Hinet",
-        "🇹🇼Taiwan Hinet"
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["ktTwaiwan"]}
       ]
     },
     {
@@ -444,18 +418,10 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "🇸🇬Singapore 01 Amazon",
-        "🇸🇬Singapore 02 Amazon",
-        "🇸🇬Singapore 03 Amazon",
-        "🇸🇬Singapore 04 Amazon",
-        "🇸🇬Singapore 05 Amazon",
-        "🇸🇬Singapore 06 Amazon",
-        "🇸🇬Singapore 07 Amazon",
-        "🇸🇬Singapore 08 Amazon",
-        "🇸🇬Singapore 09 Amazon",
-        "🇸🇬Singapore 10 Amazon",
-        "🇸🇬Singapore 11 Amazon",
-        "🇸🇬Singapore 12 Amazon"
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["ktSingapore"]}
       ]
     },
     {
@@ -466,31 +432,10 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "日本 BGP 01",
-        "日本 Eons 02",
-        "日本 Eons 03",
-        "日本 01",
-        "日本 02",
-        "日本 03",
-        "日本 04",
-        "日本 05",
-        "日本 06",
-        "日本 07",
-        "日本 08",
-        "日本 09",
-        "日本 10",
-        "🇯🇵Japan 01 Amazon",
-        "🇯🇵Japan 02 Amazon",
-        "🇯🇵Japan 03 Amazon",
-        "🇯🇵Japan 04 Amazon",
-        "🇯🇵Japan 05 Amazon",
-        "🇯🇵Japan 06 Amazon",
-        "🇯🇵Japan 07 Amazon",
-        "🇯🇵Japan 08 Amazon",
-        "🇯🇵Japan 09 Amazon",
-        "🇯🇵Japan 10 Amazon",
-        "🇯🇵Japan 11 Amazon",
-        "🇯🇵Japan 12 Amazon"
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["ktJapan|bc日本|lm日本"]}
       ]
     },
     {
@@ -501,27 +446,10 @@
       "tolerance": 250,
       "interrupt_exist_connections": false,
       "outbounds": [
-        "US01-reality",
-        "US01-hysteria2",
-        "US02-reality",
-        "US02-hysteria2",
-        "🇺🇸America 01 West",
-        "🇺🇸America 02 San José",
-        "🇺🇸America 03 FranTech",
-        "🇺🇸America 04 Site",
-        "🇺🇸America 05 San José",
-        "美国 01",
-        "美国 02",
-        "美国 03",
-        "美国 04",
-        "美国 05",
-        "美国 06",
-        "美国 07",
-        "美国 08",
-        "美国 09",
-        "美国 10",
-        "美国 Eons 01",
-        "美国 Eons 02"
+        "{all}"
+      ],
+      "filter":[
+        {"action":"include","keywords":["lm美国|bc美国|ktAmerica"]}
       ]
     },
   "route": {
