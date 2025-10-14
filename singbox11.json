@@ -102,7 +102,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美"]}
+        {"action":"exclude","keywords":["bc香港|bc台湾|bc狮城|lm香港|lm新加坡|lm台湾|ktHong Kong|ktTwaiwan|ktSingapore|ktJapan|bc日本|lm日本|lm美国|bc美国|ktAmerica"]}
       ]
     },
     {
@@ -125,7 +125,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美"]}
+        {"action":"exclude","keywords":["bc香港|bc台湾|bc狮城|lm香港|lm新加坡|lm台湾|ktHong Kong|ktTwaiwan|ktSingapore|ktJapan|bc日本|lm日本|lm美国|bc美国|ktAmerica"]}
       ]
     },
     {
@@ -148,7 +148,7 @@
         "{all}"
       ],
       "filter":[
-        {"action":"exclude","keywords":["🇭🇰|HK|hk|香港|香|🇹🇼|TW|tw|台湾|台|🇸🇬|SG|sg|新加坡|狮|🇯🇵|JP|jp|日本|日|🇺🇸|US|us|美国|美"]}
+        {"action":"exclude","keywords":["bc香港|bc台湾|bc狮城|lm香港|lm新加坡|lm台湾|ktHong Kong|ktTwaiwan|ktSingapore|ktJapan|bc日本|lm日本|lm美国|bc美国|ktAmerica"]}
       ]
     },
     {
